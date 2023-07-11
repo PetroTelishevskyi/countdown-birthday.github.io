@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffebcc;
+  font-family: "Open Sans", sans-serif;
+  color: #1a0f00;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#headline {
+  font-weight: normal;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  transition: all 0.83 ease-out;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5rem;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+#content {
+  display: none;
+  padding: 1rem;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  font-family: "Indie Flower", cursive;
+}
+
+#content span {
+  font-size: 4rem;
+  padding: 0 0.5rem;
+}
